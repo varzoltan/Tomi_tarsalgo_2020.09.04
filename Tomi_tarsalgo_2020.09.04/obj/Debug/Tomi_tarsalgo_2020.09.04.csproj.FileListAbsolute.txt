@@ -1,0 +1,7 @@
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\bin\Debug\Tomi_tarsalgo_2020.09.04.exe.config
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\bin\Debug\Tomi_tarsalgo_2020.09.04.exe
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\bin\Debug\Tomi_tarsalgo_2020.09.04.pdb
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\obj\Debug\Tomi_tarsalgo_2020.09.04.csprojAssemblyReference.cache
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\obj\Debug\Tomi_tarsalgo_2020.09.04.csproj.CoreCompileInputs.cache
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\obj\Debug\Tomi_tarsalgo_2020.09.04.exe
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_tarsalgo_2020.09.04\Tomi_tarsalgo_2020.09.04\obj\Debug\Tomi_tarsalgo_2020.09.04.pdb
