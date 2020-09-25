@@ -116,7 +116,8 @@ namespace Tomi_tarsalgo_2020._09._04
             //8. feladat
             int osszegzes = 0;
             int osszegzes1 = 0;
-            int osszegzes2 = 0;
+            bool volt = false;
+            int Tizenot = Ora_perc(15, 0);
             for (int i = 0; i < n; i++)
             {
                 if (azon == adatok[i].azonosito)
@@ -124,17 +125,22 @@ namespace Tomi_tarsalgo_2020._09._04
                     if ("be" == adatok[i].beki)
                     {
                         osszegzes = Ora_perc(adatok[i].ora, adatok[i].perc);
+                        volt = true;
                     }
                     else
                     {
-                        osszegzes1 = Ora_perc(adatok[i].ora, adatok[i].perc);
-                        osszegzes2 += osszegzes1 - osszegzes;
+                        osszegzes1 += Ora_perc(adatok[i].ora, adatok[i].perc) - osszegzes;
+                        volt = false;
                     }
                     
                 }
+                
             }
-
-            Console.WriteLine($"A(z) {azon}. személy összesen {osszegzes2} percet volt bent, a megfigyelés végén a társalgóban volt.");
+            if (volt)
+            {
+                osszegzes1 += Tizenot - osszegzes;
+            }
+            Console.WriteLine($"A(z) {azon}. személy összesen {osszegzes1} percet volt bent, a megfigyelés végén a társalgóban volt.");
             Console.ReadKey();
         }
 
